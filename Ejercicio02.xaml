@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Padding="0,10,0,0"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Diseños.Ejercicio02">
+
+        <StackLayout>
+        <Label Text="  nyc_photographer"/>
+        <Image Source="descarga.jpg"/>
+        <StackLayout Orientation="Horizontal"
+                     Spacing="10"
+                     Margin="10">
+            <Label Text="Like" TextColor="Blue"/>
+            <Label Text="Comment" TextColor="Blue"/>
+            <Label Text="Share" TextColor="Blue"/>
+        </StackLayout>
+        <Label Text="  700 likes"/>
+        <Label Text="  this is a shoy yesterday in Skanor, Swenden, When driving home, from a couple of days of work in Denmark"/>
+    </StackLayout>
+
+</ContentPage>
